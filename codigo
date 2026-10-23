@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a0a12">
+<meta name="author" content="Display Web">
+<title>Display Web — Publicidade em telas de estabelecimentos | A partir de R$ 50/mês</title>
+<meta name="description" content="A Display Web exibe a publicidade da sua empresa em televisores de estabelecimentos comerciais parceiros. Planos de 1 a 5 telas, de R$ 50 a R$ 170 por mês. Fale com a Display Web pelo WhatsApp.">
+<meta property="og:title" content="Display Web — Sua marca nas telas. Seu negócio em evidência.">
+<meta property="og:description" content="Publicidade local em televisores de estabelecimentos comerciais parceiros. Planos de 1 a 5 telas, a partir de R$ 50/mês.">
+<meta property="og:type" content="website"><meta property="og:locale" content="pt_BR"><meta property="og:site_name" content="Display Web">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:dark;--bg:#0a0a12;--bg2:#0f1019;--surface:#141521;--surface2:#1a1b2b;--ink:#eceef7;--mute:#9a9fbd;--line:#272a40;--accent:#800000;--accent-ink:#fff;--at:#ffbd38;--glow:rgba(128,0,0,.35);--tint:rgba(128,0,0,.16);--warm:#ffbd38;
+--head:"Bricolage Grotesque",system-ui,sans-serif;--body:"Figtree",system-ui,sans-serif;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-behavior:smooth;scroll-padding-top:calc(72px + env(safe-area-inset-top,0px))}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 var(--body);-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:50}
+a{color:inherit}p{margin:0}
+h1,h2,h3,h4{font-family:var(--head);line-height:1.08;margin:0;letter-spacing:-.025em}
+h1{font-size:clamp(2.5rem,6.4vw,4.8rem);font-weight:800}
+h2{font-size:clamp(1.9rem,4vw,3rem);font-weight:700;max-width:21ch}
+h3{font-size:1.2rem;font-weight:700}
+em{font-style:normal;color:var(--at)}
+.wrap{max-width:1120px;margin:0 auto;padding:0 22px}
+section{padding:96px 0}.alt{background:var(--bg2);border-block:1px solid var(--line)}
+@media(max-width:700px){section{padding:68px 0}}
+.kick{display:inline-block;background:var(--tint);border:1px solid rgba(128,0,0,.6);color:var(--at);font-size:.85rem;font-weight:600;padding:6px 14px;border-radius:99px;margin-bottom:20px}
+.lead{color:var(--mute);max-width:58ch;margin-top:18px;font-size:1.05rem}
+.btn{display:inline-block;background:var(--accent);color:var(--accent-ink);padding:15px 26px;border-radius:12px;text-decoration:none;border:1px solid rgba(255,255,255,.22);font:600 1rem var(--body);cursor:pointer;box-shadow:0 10px 30px -12px var(--glow);transition:transform .15s,box-shadow .15s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 14px 34px -10px rgba(128,0,0,.7)}
+.btn.ghost{background:transparent;color:var(--ink);border:1.5px solid var(--line);box-shadow:none}.btn.ghost:hover{border-color:var(--accent)}
+.btn.sm{padding:10px 18px;font-size:.92rem;border-radius:10px}.btn.block{display:block;text-align:center;width:100%}
+:focus-visible{outline:3px solid var(--warm);outline-offset:3px}
+.skip{position:absolute;left:-999px}.skip:focus{left:12px;top:12px;background:var(--accent);color:#fff;padding:8px 12px;z-index:60}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:40;background:rgba(10,10,18,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:68px;gap:16px}
+.logo{font:800 1.1rem var(--head);text-decoration:none;letter-spacing:.06em;display:flex;align-items:center;gap:10px}
+.logo::before{content:"";width:12px;height:12px;border-radius:3px;background:var(--accent);box-shadow:0 0 14px var(--accent)}
+nav{display:flex;gap:28px;font-size:.95rem}nav a{text-decoration:none;color:var(--mute);transition:color .15s}nav a:hover{color:var(--ink)}
+.hr{display:flex;gap:10px;align-items:center}.ig{padding:9px 14px;border:1.5px solid var(--line);border-radius:10px;text-decoration:none;font-size:.9rem;color:var(--mute)}.ig:hover{color:var(--ink);border-color:var(--accent)}
+@media(max-width:900px){nav{display:none}.ig{display:none}}
+.hero{position:relative;overflow:hidden;padding:110px 0 120px;background:radial-gradient(60% 70% at 85% 0%,var(--glow),transparent 70%),radial-gradient(40% 50% at 0% 100%,rgba(128,0,0,.18),transparent 70%)}
+.hero::after{content:"";position:absolute;inset:0;background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:64px 64px;opacity:.18;mask-image:linear-gradient(180deg,#000,transparent 85%);-webkit-mask-image:linear-gradient(180deg,#000,transparent 85%);pointer-events:none}
+.hero .wrap{position:relative;z-index:1}.hero h1{max-width:15ch}.hero .lead{font-size:1.15rem;max-width:56ch}
+.pill{display:inline-flex;align-items:center;gap:10px;background:var(--surface);border:1px solid var(--line);border-radius:99px;padding:10px 20px;margin-top:30px;font-weight:600}
+.pill b{color:var(--at);font:800 1.15rem var(--head)}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.small{font-size:.92rem;color:var(--mute);margin-top:18px}
+.mute{color:var(--mute)}.note{font-size:.85rem;color:var(--mute);margin-top:20px;max-width:74ch}
+/* 1 desafio */
+.split{display:grid;gap:56px;grid-template-columns:.9fr 1.1fr;align-items:start}@media(max-width:900px){.split{grid-template-columns:1fr;gap:36px}}
+.stick{position:sticky;top:110px}@media(max-width:900px){.stick{position:static}}
+.list{border:1px solid var(--line);border-radius:20px;background:var(--surface);overflow:hidden}
+.item{display:grid;grid-template-columns:76px 1fr;gap:12px;padding:28px;border-bottom:1px solid var(--line);transition:background .2s}.item:last-child{border:0}.item:hover{background:var(--surface2)}
+.item .num{font:800 2.6rem/1 var(--head);color:var(--at)}.item h3{margin-bottom:8px}.item p{color:var(--mute);font-size:.98rem}
+@media(max-width:520px){.item{grid-template-columns:1fr;gap:6px}}
+.close{margin-top:36px;padding:26px 28px;border-radius:16px;background:#800000;font:700 1.25rem/1.3 var(--head);box-shadow:0 20px 50px -24px var(--glow)}
+/* 2 como funciona */
+.steps{display:grid;gap:22px;grid-template-columns:repeat(3,1fr);margin-top:52px;position:relative}@media(max-width:900px){.steps{grid-template-columns:1fr}}
+.step{background:var(--surface);border:1px solid var(--line);border-top:3px solid var(--accent);border-radius:18px;padding:32px 28px;position:relative}
+.step .num{font:800 3.6rem/1 var(--head);color:var(--at);margin-bottom:18px}.step h3{margin-bottom:10px;font-size:1.3rem}.step p{color:var(--mute);font-size:.98rem}
+.step:not(:last-child)::after{content:"→";position:absolute;right:-20px;top:50%;width:18px;text-align:center;color:var(--at);font-size:1.4rem;z-index:2}
+@media(max-width:900px){.step:not(:last-child)::after{content:"↓";right:auto;left:50%;top:auto;bottom:-24px;transform:translateX(-50%)}}
+/* pontos */
+.band{display:grid;gap:28px;grid-template-columns:1fr auto;align-items:center;background:linear-gradient(135deg,var(--surface),var(--surface2));border:1px solid var(--line);border-radius:22px;padding:44px;position:relative;overflow:hidden}
+.band::before{content:"";position:absolute;right:-80px;top:-80px;width:260px;height:260px;background:radial-gradient(circle,var(--glow),transparent 70%)}
+.band>*{position:relative}@media(max-width:780px){.band{grid-template-columns:1fr;padding:30px}}
+/* planos */
+.panel{background:linear-gradient(180deg,var(--surface2),var(--surface));border:1px solid var(--line);border-radius:22px;padding:36px;margin-top:44px;display:grid;gap:40px;grid-template-columns:1.2fr .8fr;align-items:center;box-shadow:0 30px 70px -40px var(--glow)}
+@media(max-width:820px){.panel{grid-template-columns:1fr;padding:26px;gap:28px}}
+.lbl{font-size:.82rem;letter-spacing:.1em;text-transform:uppercase;color:var(--mute);font-weight:600}
+.qv{font:800 clamp(2.4rem,5vw,3.4rem) var(--head);margin:4px 0 22px}
+input[type=range]{-webkit-appearance:none;appearance:none;width:100%;height:8px;border-radius:99px;background:linear-gradient(90deg,var(--accent) var(--pct,50%),#262a44 var(--pct,50%));outline-offset:8px}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:28px;height:28px;border-radius:50%;background:var(--accent);border:4px solid #fff;box-shadow:0 0 0 6px var(--tint);cursor:grab}
+input[type=range]::-moz-range-thumb{width:20px;height:20px;border-radius:50%;background:var(--accent);border:4px solid #fff;cursor:grab}
+.ticks{display:flex;justify-content:space-between;margin-top:12px}.ticks button{width:44px;height:36px;background:transparent;border:0;color:var(--mute);font:600 .95rem var(--body);cursor:pointer;border-radius:8px}.ticks button[aria-pressed=true]{color:var(--ink);background:var(--tint)}
+.res{border-left:1px solid var(--line);padding-left:40px}@media(max-width:820px){.res{border:0;padding:24px 0 0;border-top:1px solid var(--line)}}
+.big{font:800 clamp(2.4rem,5vw,3.4rem)/1.05 var(--head)}.big small{font:500 1rem var(--body);color:var(--mute)}
+.plans{display:grid;gap:16px;grid-template-columns:repeat(5,1fr);margin-top:28px}@media(max-width:1020px){.plans{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}}
+.plan{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:24px 20px;display:flex;flex-direction:column;gap:6px;cursor:pointer;transition:border-color .2s,transform .2s,box-shadow .2s;position:relative}
+.plan:hover{border-color:var(--accent)}.plan.sel{border:2px solid var(--accent);background:linear-gradient(180deg,var(--tint),var(--surface) 60%);transform:translateY(-4px);box-shadow:0 24px 50px -28px var(--glow)}
+.plan h3{font-size:1.5rem}.plan .p{font:800 1.8rem var(--head);margin:4px 0 12px}.plan .p small{font:500 .9rem var(--body);color:var(--mute)}
+.plan dl{margin:0 0 16px;border-top:1px solid var(--line);padding-top:12px;font-size:.88rem;color:var(--mute)}.plan dd{margin:0 0 10px;color:var(--ink);font:700 1.05rem var(--head)}
+.plan .btn{margin-top:auto;text-align:center;padding:12px;font-size:.93rem}
+/* parceria */
+.two{display:grid;gap:48px;grid-template-columns:1.05fr .95fr;align-items:start}@media(max-width:900px){.two{grid-template-columns:1fr}}
+.tw{overflow-x:auto;margin-top:30px;border:1px solid var(--line);border-radius:16px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;min-width:480px}
+th,td{text-align:left;padding:15px 18px;border-bottom:1px solid var(--line)}tr:last-child td{border:0}
+th{color:var(--mute);font-weight:600;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;background:var(--surface2)}
+td:last-child{color:var(--at);font-weight:700}tr.on td{background:var(--tint)}
+.sim{background:linear-gradient(180deg,var(--surface2),var(--surface));border:1px solid var(--line);border-radius:22px;padding:30px;display:grid;gap:22px;box-shadow:0 30px 70px -40px var(--glow);position:sticky;top:100px}@media(max-width:900px){.sim{position:static}}
+.sim .head{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.sim .tagc{font-size:.74rem;letter-spacing:.12em;font-weight:700;color:var(--at);background:var(--tint);border:1px solid rgba(128,0,0,.6);padding:4px 10px;border-radius:99px}
+.step2{display:flex;align-items:center;gap:6px;background:var(--bg);border:1px solid var(--line);border-radius:14px;padding:6px;width:max-content}
+.step2 button{width:48px;height:48px;border-radius:10px;border:0;background:var(--surface2);color:var(--ink);font:600 1.4rem var(--body);cursor:pointer}.step2 button:hover{background:var(--accent)}
+.step2 output{min-width:86px;text-align:center;font:800 1.7rem var(--head)}
+.chips{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}
+.chips button{border:1.5px solid var(--line);background:var(--bg);color:var(--ink);border-radius:12px;padding:10px 0;cursor:pointer;display:grid;line-height:1.1;font:500 .75rem var(--body);color:var(--mute)}
+.chips button b{font:800 1.4rem var(--head);color:var(--ink)}.chips button[aria-pressed=true]{background:var(--accent);border-color:rgba(255,255,255,.55);color:#fff}.chips button[aria-pressed=true] b{color:#fff}
+.rows>div{display:flex;justify-content:space-between;gap:12px;padding:11px 0;border-bottom:1px solid var(--line);color:var(--mute);font-size:.95rem}.rows b{color:var(--ink);font-family:var(--head);font-size:1.1rem}
+.total{background:#800000;border-radius:16px;padding:20px 22px}.total span{font-size:.85rem;opacity:.85}.total b{display:block;font:800 2.3rem/1.1 var(--head)}.total p{font-size:.9rem;opacity:.85;margin-top:2px}
+footer{border-top:1px solid var(--line);padding:26px 0 110px;color:var(--mute);font-size:.9rem}
+#fl{position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:45;max-width:580px;margin:0 auto;background:var(--accent);color:#fff;border:1px solid rgba(255,255,255,.25);border-radius:14px;display:flex;align-items:center;gap:6px;padding:4px 4px 4px 18px;font-weight:600;box-shadow:0 14px 34px rgba(0,0,0,.55)}
+#fl a{flex:1;text-decoration:none;padding:10px 0;font-size:.95rem}#fl button{width:44px;height:44px;background:transparent;border:0;color:inherit;font-size:1.3rem;cursor:pointer}
+.two>*,.split>*,.panel>*{min-width:0}
+.tw{max-width:100%}
+@media(max-width:600px){
+table{min-width:0;font-size:.86rem}
+th,td{padding:12px 10px}
+th{font-size:.66rem;letter-spacing:.04em}
+.tw caption{padding:14px 10px 4px!important}
+.sim{padding:22px 18px;gap:18px}
+.sim .head{flex-wrap:wrap}
+.chips{gap:6px}
+.total b{font-size:2rem}
+.rows>div{flex-wrap:wrap}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+<header><div class="wrap"><a class="logo" href="#topo">DISPLAY WEB</a>
+<nav><a href="#como-funciona">Como funciona</a><a href="#pontos">Onde anunciamos</a><a href="#planos">Planos</a><a href="#parceiro">Seja parceiro</a></nav>
+<div class="hr"><a class="ig" href="https://www.instagram.com/displayweb/" target="_blank" rel="noopener">Instagram</a><a class="btn sm" data-m="a" href="https://wa.me/5511995795080">Quero anunciar</a></div></div></header>
+
+<main id="conteudo"><div id="topo"></div>
+<div class="hero"><div class="wrap">
+<span class="kick">Publicidade local • Display Web</span>
+<h1>Sua marca em destaque <em>onde as pessoas estão.</em></h1>
+<p class="lead">A Display Web leva a publicidade do seu negócio para televisores instalados em estabelecimentos comerciais parceiros. Apresente sua marca em novos espaços, alcance pessoas durante a rotina delas e amplie sua presença local.</p>
+<div class="pill">Anuncie a partir de <b>R$ 50/mês</b></div>
+<div class="cta"><a class="btn" data-m="a" href="https://wa.me/5511995795080">Quero anunciar minha empresa</a><a class="btn ghost" href="#pontos">Conhecer os pontos de divulgação</a></div>
+<p class="small">Planos de 1 a 5 telas. Fale diretamente com a Display Web para conhecer as opções disponíveis.</p>
+</div></div>
+
+<section><div class="wrap split">
+<div class="stick">
+<span class="kick">1 · O desafio da visibilidade</span>
+<h2>Seu próximo cliente pode estar perto. <em>Mas ele conhece sua marca?</em></h2>
+<p class="lead">Ter um bom produto ou serviço é importante. Mas também é preciso criar oportunidades para que mais pessoas conheçam sua empresa.</p>
+<p class="close">Sua marca merece aparecer em mais lugares. E a Display Web pode ajudar nessa missão.</p>
+</div>
+<div class="list">
+<div class="item"><span class="num">1</span><div><h3>Sua marca passa despercebida</h3><p>Muitos negócios oferecem ótimos serviços, mas ainda têm pouca presença fora do próprio estabelecimento.</p></div></div>
+<div class="item"><span class="num">2</span><div><h3>Dependência das redes sociais</h3><p>Seu negócio não precisa depender exclusivamente do Instagram ou de outros canais digitais para ser lembrado.</p></div></div>
+<div class="item"><span class="num">3</span><div><h3>Oportunidades locais pouco exploradas</h3><p>Pessoas frequentam academias, restaurantes, lojas e clínicas todos os dias. Esses ambientes também podem fazer parte da sua estratégia de divulgação.</p></div></div>
+<div class="item"><span class="num">4</span><div><h3>A impressão de que anunciar custa caro</h3><p>Nem toda divulgação precisa começar com um investimento elevado. Existem alternativas acessíveis para ampliar a presença da sua marca.</p></div></div>
+</div></div></section>
+
+<section id="como-funciona" class="alt"><div class="wrap">
+<span class="kick">2 · Simples de entender</span>
+<h2>Sua publicidade em novos espaços. <em>Sem complicação.</em></h2>
+<p class="lead">A Display Web conecta marcas a uma rede de televisores instalados em estabelecimentos comerciais parceiros.</p>
+<div class="steps">
+<div class="step"><div class="num">1</div><h3>Escolha seu plano</h3><p>Selecione a quantidade de telas que deseja contratar, de acordo com as opções apresentadas pela Display Web.</p></div>
+<div class="step"><div class="num">2</div><h3>Apresente sua marca</h3><p>A arte publicitária da sua empresa será utilizada para divulgar seus produtos ou serviços. Alinhe com a Display Web os requisitos e a entrega do material.</p></div>
+<div class="step"><div class="num">3</div><h3>Sua publicidade ganha espaço</h3><p>Sua arte é exibida nos televisores dos estabelecimentos parceiros, conforme as condições combinadas na contratação.</p></div>
+</div></div></section>
+
+<section id="pontos"><div class="wrap"><div class="band">
+<div><span class="kick">Onde sua marca pode aparecer</span><h2 style="max-width:24ch">Quer conhecer os pontos de divulgação?</h2>
+<p class="lead">Fale com a Display Web pelo WhatsApp e conheça os estabelecimentos parceiros e a disponibilidade de cada ponto.</p></div>
+<a class="btn" data-m="t" href="https://wa.me/5511995795080">Conhecer os pontos pelo WhatsApp</a>
+</div></div></section>
+
+<section id="planos" class="alt"><div class="wrap">
+<span class="kick">Planos de publicidade</span>
+<h2>Mais telas para sua marca. Planos que cabem no seu negócio.</h2>
+<p class="lead">Escolha quantas telas deseja contratar e conheça o investimento correspondente.</p>
+<div class="panel">
+<div><label class="lbl" for="qt">Quantidade de telas</label><div class="qv" id="qtv">3 telas</div>
+<input id="qt" type="range" min="1" max="5" value="3" aria-label="Quantidade de telas"><div class="ticks" id="ticks"></div></div>
+<div class="res"><div class="lbl">Total mensal</div><div class="big"><span id="tot">R$ 110,00</span> <small>/mês</small></div><p class="mute" id="pt" style="margin:6px 0 20px"></p><a class="btn block" id="qbtn" href="https://wa.me/5511995795080">Quero o plano de 3 telas</a></div>
+</div>
+<div class="plans" id="plans"></div>
+<p class="note">Valores conforme tabela comercial fornecida. Consulte condições de contratação, pontos disponíveis e demais detalhes diretamente com a Display Web.</p>
+</div></section>
+
+<section id="parceiro"><div class="wrap two">
+<div>
+<span class="kick">Parceria comercial</span>
+<h2>Indique anunciantes. Ganhe comissões todos os meses.</h2>
+<p class="lead">A Display Web também possui um modelo de parceria comissionada. O parceiro recebe 30% sobre o valor que o cliente pagar, com remuneração sobre as mensalidades, e não apenas sobre o primeiro pagamento.</p>
+<div class="tw"><table><caption class="lbl" style="text-align:left;padding:16px 18px 4px;caption-side:top">Tabela de remuneração</caption><thead><tr><th>Telas contratadas pelo anunciante</th><th>Mensalidade do anunciante</th><th>Comissão de 30%</th></tr></thead><tbody id="tb"></tbody></table></div>
+<p class="close" style="font-size:1.1rem">Não é apenas uma comissão pela primeira venda. É uma oportunidade de remuneração recorrente.</p>
+<p class="note">As comissões correspondem a 30% dos valores efetivamente pagos pelos anunciantes, conforme o modelo apresentado. Consulte as condições completas da parceria.</p>
+</div>
+<div class="sim"><div class="head"><h3>Simulador de comissões</h3><span class="tagc">SIMULAÇÃO</span></div>
+<div><div class="lbl" style="margin-bottom:10px">Quantidade de anunciantes indicados</div>
+<div class="step2"><button type="button" id="mn" aria-label="Diminuir">−</button><output id="nv" aria-live="polite">50</output><button type="button" id="pl" aria-label="Aumentar">+</button></div></div>
+<div><div class="lbl" style="margin-bottom:10px">Plano contratado por esses anunciantes</div><div class="chips" id="sp"></div></div>
+<div class="rows"><div><span>Mensalidade individual do plano</span><b id="c0"></b></div><div style="border:0"><span>Comissão por anunciante</span><b id="c1"></b></div></div>
+<div class="total"><span>Comissão mensal total estimada</span><b id="ct"></b><p id="sd"></p></div>
+<p class="note" style="margin:0">Simulação ilustrativa, condicionada ao efetivo pagamento das mensalidades pelos clientes e às condições do programa de parceria. Não representa ganho garantido.</p>
+<a class="btn block" data-m="p" href="https://wa.me/5511995795080">Quero ser parceiro da Display Web</a></div>
+</div></section>
+
+</main>
+
+<footer><div class="wrap">© 2026 Display Web · Publicidade local em telas digitais</div></footer>
+<div id="fl"><a data-m="a" href="https://wa.me/5511995795080">Quer divulgar sua empresa? Fale com a Display Web.</a><button type="button" id="fx" aria-label="Fechar">×</button></div>
+
+<script>
+(function(){
+var WA="5511995795080";
+var M={a:"Olá! Conheci a Display Web pelo site e gostaria de saber como anunciar minha empresa nas telas dos estabelecimentos parceiros.",
+p:"Olá! Conheci a Display Web pelo site e gostaria de saber mais sobre a parceria comercial com comissão recorrente.",
+t:"Olá! Conheci a Display Web pelo site e gostaria de conhecer os pontos de divulgação e saber quais estão disponíveis."};
+var P={1:50,2:80,3:110,4:140,5:170};
+var fm=function(v){return "R$ "+(Math.round(v*100)/100).toFixed(2).replace(".",",")};
+var tl=function(k){return k+(k>1?" telas":" tela")};
+var link=function(t){return "https://wa.me/"+WA+"?text="+encodeURIComponent(t)};
+var $=function(i){return document.getElementById(i)};
+var plnMsg=function(k){return "Olá! Tenho interesse em anunciar minha empresa no plano de "+tl(k)+", no valor apresentado de R$ "+P[k]+" por mês. Gostaria de mais informações."};
+[].forEach.call(document.querySelectorAll("[data-m]"),function(a){a.href=link(M[a.dataset.m]);a.target="_blank";a.rel="noopener"});
+/* planos */
+var qt=$("qt"),cards=[];
+[1,2,3,4,5].forEach(function(k){var b=document.createElement("button");b.type="button";b.textContent=k;b.setAttribute("aria-label",tl(k));b.onclick=function(){qt.value=k;plan()};$("ticks").appendChild(b);
+var d=document.createElement("div");d.className="plan";d.dataset.k=k;
+d.innerHTML='<span class="lbl">Plano '+k+"</span><h3>"+tl(k)+'</h3><div class="p">R$'+P[k]+',00<small>/mês</small></div><dl><dt>Total mensal</dt><dd>'+fm(P[k])+"</dd><dt>Valor por tela</dt><dd>"+(k==3?"R$ 36,66":fm(P[k]/k))+"</dd></dl>";
+var a=document.createElement("a");a.className="btn";a.textContent="Quero este plano";a.target="_blank";a.rel="noopener";a.href=link(plnMsg(k));d.appendChild(a);
+d.addEventListener("click",function(e){if(e.target!==a){qt.value=k;plan()}});$("plans").appendChild(d);cards.push(d)});
+function plan(){var k=+qt.value,v=P[k];qt.style.setProperty("--pct",((k-1)*25)+"%");$("qtv").textContent=tl(k);$("tot").textContent=fm(v);
+$("pt").textContent=fm(v/k).replace("R$ 36,67","R$ 36,66")+" por tela";$("qbtn").textContent="Quero o plano de "+tl(k);$("qbtn").href=link(plnMsg(k));$("qbtn").target="_blank";
+[].forEach.call($("ticks").children,function(b,i){b.setAttribute("aria-pressed",i+1==k)});cards.forEach(function(c){c.classList.toggle("sel",+c.dataset.k==k)})}
+qt.addEventListener("input",plan);plan();
+/* parceria */
+var sel=3,q=50,rows={};
+[1,2,3,4,5].forEach(function(k){var r=document.createElement("tr");r.innerHTML="<td>"+tl(k)+"</td><td>"+fm(P[k])+"</td><td>"+fm(P[k]*.3)+"</td>";$("tb").appendChild(r);rows[k]=r;
+var b=document.createElement("button");b.type="button";b.setAttribute("aria-label",tl(k));b.innerHTML="<b>"+k+"</b>"+(k>1?"telas":"tela");b.setAttribute("aria-pressed",k==sel);
+b.onclick=function(){sel=k;[].forEach.call($("sp").children,function(c,i){c.setAttribute("aria-pressed",i+1==k)});sim()};$("sp").appendChild(b)});
+function sim(){var c=P[sel]*.3;$("nv").textContent=q;$("c0").textContent=fm(P[sel]);$("c1").textContent=fm(c);$("ct").textContent=fm(c*q);
+$("sd").textContent=q+(q>1?" anunciantes":" anunciante")+" no plano de "+tl(sel)+".";for(var k in rows)rows[k].classList.toggle("on",+k==sel)}
+$("mn").onclick=function(){q=Math.max(1,q-1);sim()};$("pl").onclick=function(){q=Math.min(999,q+1);sim()};sim();
+$("fx").onclick=function(){$("fl").style.display="none"};
+})();
+</script>
+</body>
+</html>
